@@ -1,0 +1,57 @@
+baseURL = "https://packtory.github.io/"
+languageCode = "en-us"
+title = "Packtory"
+theme = "hugo-split"
+
+disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+# Copyright
+copyright = "&copy;2018 Gemfury"
+
+publishDir = "docs"
+
+[params]
+
+  # Metadata for search engines and social sharing
+  author = "Gemfury"
+  description = "Tool to package Ruby gems into system packages."
+  shareImage = "images/social.jpg"
+  twitterHandle = "gemfury"
+
+  # Favicon
+  favicon = "favicon.ico"
+
+  # Section - Visual
+  [params.visual]
+
+    # Image
+    [params.visual.image]
+      enable = true
+      file = "images/background1.jpg"
+      position = "center center"
+
+    # Video
+    [params.visual.video]
+      enable = false
+      mute = true
+      file = "videos/background.mp4"
+      # youtubeId = "dk9uNWPP7EA"
+
+  # Links
+  #
+  # Links List #1
+  [[params.links]]
+    [params.links.list1]
+      heading = "Connect"
+
+      [[params.links.list1.link]]
+        text = "Gemfury"
+        url = "https://gemfury.com"
+
+  # The original template is released under the Creative Commons Attribution 3.0 License.
+  # Please keep the original attribution link when using for your own project.
+  # If you'd like to use the template without the attribution, you can check out
+  # the license option via the template author's website: https://onepagelove.com/split

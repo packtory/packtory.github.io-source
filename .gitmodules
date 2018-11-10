@@ -4,3 +4,7 @@
 [submodule "themes/hugo-split"]
 	path = themes/hugo-split
 	url = https://github.com/escalate/hugo-split-theme
+[submodule "public"]
+	path = public
+	url = git@github.com:packtory/packtory.github.io.git
+	branch = master

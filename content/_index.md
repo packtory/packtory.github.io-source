@@ -1,8 +1,12 @@
 ---
 title: "Packtory"
 tagline: "Package Ruby gems into system packages"
-date: 2018-11-10T21:19:02+08:00
-draft: true
+slug: /
+language: en
 ---
 
-Package Ruby gems into system packages.
+# Packtory
+
+Tool to package Ruby gems into system packages.
+
+[Getting Started](/packtory/guide.html) &bull; [Manual](/packtory/)

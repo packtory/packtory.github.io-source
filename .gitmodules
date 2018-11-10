@@ -1,10 +1,11 @@
-[submodule "themes/tale"]
-	path = themes/tale
-	url = https://github.com/EmielH/tale-hugo.git
 [submodule "themes/hugo-split"]
 	path = themes/hugo-split
 	url = https://github.com/escalate/hugo-split-theme
 [submodule "public"]
 	path = public
 	url = git@github.com:packtory/packtory.github.io.git
+	branch = master
+[submodule "themes/simplicity"]
+	path = themes/simplicity
+	url = git@github.com:eshlox/simplicity.git
 	branch = master

@@ -1,7 +1,7 @@
 baseURL = "https://packtory.github.io/"
 languageCode = "en-us"
 title = "Packtory"
-theme = "hugo-split"
+theme = "simplicity"
 
 disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
 
@@ -11,45 +11,46 @@ googleAnalytics = ""
 # Copyright
 copyright = "&copy;2018 Gemfury"
 
+# Copied from simplicity: exampleSite/config.toml
+defaultContentLanguage = "en"
+disqusShortname = "test"
+enableEmoji = true
+enableRobotsTXT = true
+pygmentsCodeFences = true
+pygmentsStyle = "native"
+pygmentsUseClasses =  true
+[author]
+  gravatarEmail = "test@example.com"
+  homepageText = "Gemfury"
+  name = "Gemfury"
+  rss = "/posts/index.xml"
+[imaging]
+  anchor = "smart"
+  resampleFilter = "box"
+  quality = 75
+[[menu.pages]]
+  name = "Projects"
+  weight = -100
+  identifier = "projects"
+  url = "/projects/"
+[[menu.pages]]
+  name = "Photos"
+  weight = -90
+  identifier = "photos"
+  url = "/photos/"
+[outputs]
+  home = ["HTML"]
+  page = ["HTML"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  taxonomyTerm = ["HTML"]
 [params]
-
-  # Metadata for search engines and social sharing
-  author = "Gemfury"
-  description = "Tool to package Ruby gems into system packages."
-  shareImage = "images/social.jpg"
-  twitterHandle = "gemfury"
-
-  # Favicon
-  favicon = "favicon.ico"
-
-  # Section - Visual
-  [params.visual]
-
-    # Image
-    [params.visual.image]
-      enable = true
-      file = "images/background1.jpg"
-      position = "center center"
-
-    # Video
-    [params.visual.video]
-      enable = false
-      mute = true
-      file = "videos/background.mp4"
-      # youtubeId = "dk9uNWPP7EA"
-
-  # Links
-  #
-  # Links List #1
-  [[params.links]]
-    [params.links.list1]
-      heading = "Connect"
-
-      [[params.links.list1.link]]
-        text = "Gemfury"
-        url = "https://gemfury.com"
-
-  # The original template is released under the Creative Commons Attribution 3.0 License.
-  # Please keep the original attribution link when using for your own project.
-  # If you'd like to use the template without the attribution, you can check out
-  # the license option via the template author's website: https://onepagelove.com/split
+  adsenseClient = ''
+  adsenseSlot = ''
+  description = "Tool for building Ruby gems into system packages."
+  licence = ""
+  displayPostLanguage = true
+[permalinks]
+  posts = "/:year/:month/:day/:slug/"
+[pygmentsOptions]
+  linenos = false

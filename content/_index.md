@@ -7,6 +7,7 @@ language: en
 
 # Packtory
 
-Tool to package Ruby gems into system packages.
+CLI to package Ruby gems into system packages. Available for Debian,
+RPM, Homebrew.
 
 [Getting Started](/packtory/guide.html) &bull; [Manual](/packtory/)
